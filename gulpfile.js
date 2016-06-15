@@ -102,6 +102,9 @@ var onError = function (err) {
 
 gulp.task('default-watch', ['default'], ()=>{ browserSync.reload() });
 
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 8080;
+
 gulp.task('serve', ['default'], ()=>{
         browserSync.init({
             server: {
@@ -113,7 +116,7 @@ gulp.task('serve', ['default'], ()=>{
                     "/i18n": "i18n"
                 }
             },
-            port: 8080,
+            port:  port,
             open: 'local',
             browser: "google chrome"
         });
