@@ -34,7 +34,7 @@
     "phantomjs": "^1.9.19"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
     "init": "npm install",
     "install": "bower install"
   },
