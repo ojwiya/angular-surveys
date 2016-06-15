@@ -35,6 +35,8 @@
   },
   "scripts": {
     "test": "test"
+    "init": "npm install",
+    "install": "bower install"
   },
   "repository": {
     "type": "git",
