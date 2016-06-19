@@ -38,11 +38,9 @@
   "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "node gulp serve",
     "test": "test",
     "init": "npm install",
-    "install": "bower install",
-    "postinstall": "node gulp default"
+    "install": "bower install"
   },
   "repository": {
     "type": "git",
