@@ -117,7 +117,7 @@ gulp.task('serve', ['default'], ()=>{
                 }
             },
             port:  port,
-            open: 'local',
+            open: false,
             browser: "google-chrome"
         });
     gulp.watch(['i18n/**/*.json', './src/**/*.html', './styles/*.*css', 'src/**/*.js'], ['default-watch']); 
